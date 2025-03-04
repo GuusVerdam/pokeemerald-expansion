@@ -111,6 +111,7 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_SERIOUS_MINT] = {gItemIcon_Mint, gItemIconPalette_YellowMint},
     // Candy
     [ITEM_RARE_CANDY] = {gItemIcon_RareCandy, gItemIconPalette_RareCandy},
+    [ITEM_ENDLESS_CANDY] = {gItemIcon_RareCandy, gItemIconPalette_RareCandy},
     [ITEM_EXP_CANDY_XS] = {gItemIcon_ExpCandyXS, gItemIconPalette_ExpCandies},
     [ITEM_EXP_CANDY_S] = {gItemIcon_ExpCandyS, gItemIconPalette_ExpCandies},
     [ITEM_EXP_CANDY_M] = {gItemIcon_ExpCandyM, gItemIconPalette_ExpCandies},
@@ -844,6 +845,7 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_LINKING_CORD] = {gItemIcon_LinkingCord, gItemIconPalette_LinkingCord},
     [ITEM_PEAT_BLOCK] = {gItemIcon_PeatBlock, gItemIconPalette_PeatBlock},
     [ITEM_BERSERK_GENE] = {gItemIcon_BerserkGene, gItemIconPalette_BerserkGene},
+    [ITEM_INFINITE_REPEL] = {gItemIcon_Repel, gItemIconPalette_MaxRepel},
     [ITEM_FAIRY_FEATHER] = {gItemIcon_FairyFeather, gItemIconPalette_FairyFeather},
     [ITEM_SYRUPY_APPLE] = {gItemIcon_SyrupyApple, gItemIconPalette_SyrupyApple},
     [ITEM_UNREMARKABLE_TEACUP] = {gItemIcon_UnremarkableTeacup, gItemIconPalette_UnremarkableTeacup},
